@@ -33,7 +33,7 @@ Price: 128 credits
 ```
 
 ## Rules
-### Double hyphen to dash
+#### Double hyphen to dash
 ```
 --
 ```
@@ -42,7 +42,7 @@ Price: 128 credits
 ```
 
 
-### Merge spaces
+#### Merge spaces
 ```
 Hello    world
 ```
@@ -51,7 +51,7 @@ Hello world
 ```
 
 
-### Space after comma
+#### Space after comma
 ```
 Hello,world
 ```
@@ -60,7 +60,7 @@ Hello, world
 ```
 
 
-### Non-breaking space between short and long words
+#### Non-breaking space between short and long words
 ```
 striking from a hidden
 ```
@@ -70,7 +70,7 @@ striking from a&nbsp;hidden
 
 
 
-### Non-breaking space between number and following text
+#### Non-breaking space between number and following text
 ```
 Price: 128 credits
 ```
@@ -80,7 +80,7 @@ Price 128&nbsp;credits
 
 
 
-### Non-breaking space between long and short words
+#### Non-breaking space between long and short words
 ```
 Going on a bus
 ```
@@ -89,7 +89,7 @@ Going&nbsp;on a&nbsp;bus
 ```
 
 
-### Non-breaking space around dash
+#### Non-breaking space around dash
 ```
 Perpetuum Mobile — Myth
 ```
