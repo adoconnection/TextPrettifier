@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexander Selishchev</Authors>
+    <PackageProjectUrl>https://github.com/adoconnection/TextPrettifier</PackageProjectUrl>
+    <Description>C# typography prettifier tool for web texts</Description>
+    <Version>2020.01</Version>
+  </PropertyGroup>
+
+</Project>
