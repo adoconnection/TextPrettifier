@@ -11,16 +11,19 @@ Install-Package TextPrettifier
 ```
 
 ## Sample
+```cs
+TextPrettifier prettifier = new TextPrettifier();
 
+Console.WriteLine(prettifier.PrettifyForWeb(@"
+    A long time ago, in a galaxy far,far away...
+    It is a period of civil war. Rebel
+    spaceships, striking from a hidden
+    base, have won their first victory
+    against the evil Galactic Empire.
+    
+    Price: 128 credits"));
 ```
-A long time ago, in a galaxy far,far away...
-It is a period of civil war. Rebel
-spaceships, striking from a hidden
-base, have won their first victory
-against the evil Galactic Empire.
 
-Price: 128 credits
-```
 
 ```
 A&nbsp;long time&nbsp;ago, in a&nbsp;galaxy&nbsp;far, far&nbsp;away...
