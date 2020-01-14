@@ -34,44 +34,36 @@ Price: 128 credits
 
 ## Rules
 ### Double hyphen to dash
-from:
 ```
 --
 ```
-to:
 ```
 –
 ```
 
 
 ### Merge spaces
-from:
 ```
 Hello    world
 ```
-to:
 ```
 Hello world
 ```
 
 
 ### Space after comma
-from:
 ```
 Hello,world
 ```
-to:
 ```
 Hello, world
 ```
 
 
 ### Non-breaking space between short and long words
-from:
 ```
 striking from a hidden
 ```
-to:
 ```
 striking from a&nbsp;hidden
 ```
@@ -79,11 +71,9 @@ striking from a&nbsp;hidden
 
 
 ### Non-breaking space between number and following text
-from:
 ```
 Price: 128 credits
 ```
-to:
 ```
 Price 128&nbsp;credits
 ```
@@ -91,22 +81,18 @@ Price 128&nbsp;credits
 
 
 ### Non-breaking space between long and short words
-from:
 ```
 Going on a bus
 ```
-to:
 ```
 Going&nbsp;on a&nbsp;bus
 ```
 
 
 ### Non-breaking space around dash
-from:
 ```
 Perpetuum Mobile — Myth
 ```
-to:
 ```
 Perpetuum Mobile&nbsp;—&nbsp;Myth
 ```
