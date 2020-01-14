@@ -1,5 +1,6 @@
 # TextPrettifier
 C# typography prettifier tool for web texts
+
 – .NET Standard 2.0
 
 [![NuGet](https://img.shields.io/nuget/dt/TextPrettifier.svg?style=flat-square)](https://www.nuget.org/packages/TextPrettifier)
