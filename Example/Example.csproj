@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TextPrettifierLib\TextPrettifierLib.csproj">
-      <Project>{588ea437-70a8-4edf-abf1-d8b2801a42bc}</Project>
-      <Name>TextPrettifierLib</Name>
+    <ProjectReference Include="..\TextPrettifier\TextPrettifier.csproj">
+      <Project>{8076da03-5f89-481d-a917-d01bf00f58c8}</Project>
+      <Name>TextPrettifier</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
