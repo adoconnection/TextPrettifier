@@ -33,7 +33,7 @@ spaceships, striking from a&nbsp;hidden
 base, have won&nbsp;their first victory
 against the&nbsp;evil Galactic Empire.
 
-Price: 128 credits
+Price: 128&nbsp;credits
 ```
 
 ## Rules
