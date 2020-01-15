@@ -79,7 +79,7 @@ striking from a&nbsp;hidden
 Price: 128 credits
 ```
 ```
-Price 128&nbsp;credits
+Price: 128&nbsp;credits
 ```
 
 
