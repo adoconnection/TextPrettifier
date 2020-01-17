@@ -29,7 +29,7 @@ Console.WriteLine(prettifier.PrettifyForWeb(@"
 ```
 A&nbsp;long time&nbsp;ago, in a&nbsp;galaxy&nbsp;far, far&nbsp;away...
 It is a&nbsp;period of&nbsp;civil&nbsp;war. Rebel
-spaceships, <span title="this is a popular quote" style="font-weight: bold">striking from a&nbsp;hidden
+spaceships, <span title='this is a popular quote' style='font-weight: bold'>striking from a&nbsp;hidden
 base</span>, have won&nbsp;their first victory
 against the&nbsp;evil Galactic Empire.
 
