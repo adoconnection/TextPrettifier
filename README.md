@@ -1,5 +1,5 @@
 # TextPrettifier
-C# typography prettifier tool for web texts
+C# typography prettifier tool for web texts, HTML support
 
 – .NET Standard 2.0
 
