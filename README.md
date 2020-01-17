@@ -1,5 +1,6 @@
 # TextPrettifier
 C# typography prettifier tool for web texts
+
 – .NET Standard 2.0
 
 [![NuGet](https://img.shields.io/nuget/dt/TextPrettifier.svg?style=flat-square)](https://www.nuget.org/packages/TextPrettifier)
@@ -11,16 +12,19 @@ Install-Package TextPrettifier
 ```
 
 ## Sample
+```cs
+TextPrettifier prettifier = new TextPrettifier();
 
+Console.WriteLine(prettifier.PrettifyForWeb(@"
+    A long time ago, in a galaxy far,far away...
+    It is a period of civil war. Rebel
+    spaceships, striking from a hidden
+    base, have won their first victory
+    against the evil Galactic Empire.
+    
+    Price: 128 credits"));
 ```
-A long time ago, in a galaxy far,far away...
-It is a period of civil war. Rebel
-spaceships, striking from a hidden
-base, have won their first victory
-against the evil Galactic Empire.
 
-Price: 128 credits
-```
 
 ```
 A&nbsp;long time&nbsp;ago, in a&nbsp;galaxy&nbsp;far, far&nbsp;away...
@@ -29,7 +33,7 @@ spaceships, striking from a&nbsp;hidden
 base, have won&nbsp;their first victory
 against the&nbsp;evil Galactic Empire.
 
-Price: 128 credits
+Price: 128&nbsp;credits
 ```
 
 ## Rules
@@ -75,7 +79,7 @@ striking from a&nbsp;hidden
 Price: 128 credits
 ```
 ```
-Price 128&nbsp;credits
+Price: 128&nbsp;credits
 ```
 
 
