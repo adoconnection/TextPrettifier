@@ -6,6 +6,7 @@
     <PackageProjectUrl>https://github.com/adoconnection/TextPrettifier</PackageProjectUrl>
     <Description>C# typography prettifier tool for web texts</Description>
     <Version>2020.01</Version>
+    <AssemblyVersion>2020.1.1.0</AssemblyVersion>
   </PropertyGroup>
 
 </Project>
