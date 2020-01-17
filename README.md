@@ -18,8 +18,8 @@ TextPrettifier prettifier = new TextPrettifier();
 Console.WriteLine(prettifier.PrettifyForWeb(@"
     A long time ago, in a galaxy far,far away...
     It is a period of civil war. Rebel
-    spaceships, striking from a hidden
-    base, have won their first victory
+    spaceships, <span title='this is a popular quote' style='font-weight: bold'>striking from a hidden
+    base</span>, have won their first victory
     against the evil Galactic Empire.
     
     Price: 128 credits"));
@@ -29,8 +29,8 @@ Console.WriteLine(prettifier.PrettifyForWeb(@"
 ```
 A&nbsp;long time&nbsp;ago, in a&nbsp;galaxy&nbsp;far, far&nbsp;away...
 It is a&nbsp;period of&nbsp;civil&nbsp;war. Rebel
-spaceships, striking from a&nbsp;hidden
-base, have won&nbsp;their first victory
+spaceships, <span title="this is a popular quote" style="font-weight: bold">striking from a&nbsp;hidden
+base</span>, have won&nbsp;their first victory
 against the&nbsp;evil Galactic Empire.
 
 Price: 128&nbsp;credits
@@ -100,3 +100,16 @@ Perpetuum Mobile — Myth
 ```
 Perpetuum Mobile&nbsp;—&nbsp;Myth
 ```
+
+#### Only text between > and < is prettified (outside of HTML tags)
+```
+striking from a hidden <span style=\"width: 3px\" title=\"not a big deal\">striking from a hidden</span>
+```
+```
+striking from a&nbsp;hidden <span style=\"width: 3px\" title=\"not a big deal\">striking from a&nbsp;hidden</span>
+```
+
+# Change log
+- 2020.01.17
+  - handle HTML tags correctly
+  - Test
