@@ -110,6 +110,6 @@ striking from a&nbsp;hidden <span style=\"width: 3px\" title=\"not a big deal\">
 ```
 
 # Change log
-- 2020.01.17
+- 2020.1.1
   - handle HTML tags correctly
   - Test
