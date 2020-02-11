@@ -110,6 +110,8 @@ striking from a&nbsp;hidden <span style=\"width: 3px\" title=\"not a big deal\">
 ```
 
 # Change log
+- 2020.2.1
+  - longer text and base64 images wont break the parser
 - 2020.1.1
   - handle HTML tags correctly
   - Test
